@@ -1,0 +1,23 @@
+{
+  "name": "typescriptbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.69",
+    "discord.js": "^11.6.4",
+    "ffmpeg": "0.0.4",
+    "opusscript": "0.0.7",
+    "sagiri": "^3.1.1",
+    "ytdl-core": "^1.0.9"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0"
+  }
+}
